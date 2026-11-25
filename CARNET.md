@@ -17,19 +17,19 @@
 
 1. Expliquez avec vos mots la différence entre une **table**, une **colonne** et une **ligne**.
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Une table regroupe des données, une colonne représente une information et une ligne correspond à un enregistrement.
 
 2. À quoi sert la clé primaire `id` ? Pourquoi ne pas simplement identifier un client par son nom ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Elle permet d'identifier chaque client de manière unique. Un nom peut être identique pour plusieurs clients.
 
 3. Pourquoi votre client ajouté en console est-il apparu sur le site ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce que le site utilise la même base de données SQLite. Les modifications sont donc visibles sur le site.
 
 4. Que signifie `NOT NULL` dans `schema.sql` ? Quelle erreur avez-vous obtenue avec `INSERT INTO clients (nom) VALUES ('TEST');` ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ NOT NULL signifie que le champ ne peut pas être vide. L'insertion échoue car le nom du client est obligatoire et la requête ne fournit pas l'id si celui-ci n'est pas généré automatiquement.
 
 🧩 **Défi** — mes requêtes / ma solution :
 
