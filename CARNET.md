@@ -33,7 +33,14 @@
 
 🧩 **Défi** — mes requêtes / ma solution :
 
-   > 
+   > Pour le premier défi: SELECT * FROM clients
+ORDER BY id DESC
+LIMIT 3;
+> Pour le deuxième:SELECT * FROM clients
+WHERE prenom LIKE 'A%';
+> Pour le 3e:SELECT COUNT(*) FROM clients
+WHERE ville = 'Paris';
+
 
 ---
 
